@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+:root {
+  --primary-color: #662640;
+}
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+label {
+  text-align: center;
+  font-weight: bold;
+}
+#inputDate {
+  margin: 0.5rem;
+  padding: 0.5rem 0.4rem;
+  border-radius: 1rem;
+  outline: none;
+  border: 1px solid black;
+}
+.inputFeild {
+  padding: 1rem;
+  max-width: 250px;
+  margin: auto;
+}
+.btnLayout {
+  max-width: 140px;
+  margin: auto;
+}
+#checkBtn {
+  width: 60%;
+  padding: 0.4rem 0.3rem;
+  outline: none;
+  cursor: pointer;
+  border-radius: 1rem;
+  box-shadow: 1px 1px gray;
+  -webkit-box-shadow: 1px 1px 6px 1px #ccc;
+}
+header {
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--primary-color);
+  color: white;
+}
+p {
+  padding: 2rem;
+  font-weight: bold;
+}
+.loading {
+  max-width: 150px;
+  margin: auto;
+}
+img {
+  margin: 0.4rem;
+}
+.show {
+  padding: 1rem;
+}
+.output {
+  padding: 1rem;
+  font-weight: bold;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  background-color: var(--primary-color);
+  width: 100%;
+}
+ul,
+li {
+  display: inline;
+  padding-left: 0.5rem;
+}
+.icons {
+  width: 40px;
+  padding: 0.3rem;
+}
